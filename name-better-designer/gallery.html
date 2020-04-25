@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <style>
+        body {
+            background-color: white;
+            background-image: url("images/puppy.jpg");
+        }
+    </style>
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+
+
+<body id="mybody">
+
+    <div class="container">
+
+        <h1 id="mixed-text">Welcome to the Gallery page</h1>
+        <p style="text-align: center">Here you can find some of my favorite things I have learned in my web design class!</p>
+
+        <ul class="nav">
+
+            <li>Gallery</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="howto.html">HowTo</a></li>
+        </ul>
+
+        <h2 style="color: coral;">What are some of my favorite things I have learned in web design?</h2>
+
+
+        <ul>
+            <li>One of my favorite things is background image.</li>
+
+            <hr>
+            <p>For example I can also change the background image!</p>
+            <button onclick="document.getElementById('mybody').style.backgroundImage = 'url(images/flowers.jpg)'">Change background to flowers</button>
+            <button onclick="document.getElementById('mybody').style.backgroundImage = 'url(images/puppy.jpg)'">Change background to puppys</button>
+
+            <hr>
+
+            <li style="color: hotpink">Another one of my favorite things was first learning how to change the color of text. As you can see this text is hotpink!</li>
+            <li>I really liked learning how to make lists because I make lists everyday in my own personal life. As you can se this is a unordered list.</li>
+            <li>I also liked learning the basic JS elements</li>
+
+            <hr>
+            <p>For example I can change the size of texts!</p>
+            <p id="textchange">This is the text size</p>
+            <button onclick="document.getElementById('textchange').style.fontSize='5px'">Make this super small</button>
+            <button onclick="document.getElementById('textchange').style.fontSize='100px'">Make this super big</button>
+            <hr>
+            <li>I am so excited to learn more!</li>
+
+
+
+
+        </ul>
+
+
+    </div>
+
+</body>
+
+</html>

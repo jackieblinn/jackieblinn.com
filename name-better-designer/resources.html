@@ -6,25 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resources</title>
 
-    <style>
-.container {
-    padding: 50 px;
-    background-color: white;
-    border: 1px solid black;
-    margin: 10px auto;
-    width: 80%;  
-}
-
-#mixed-text{
-    font-size: 30px;
-    color: orange;
-    text-align:center;
-    font-family:'Courier New', Courier, monospace;
-    text-transform: uppercase;
-}
-
-
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 
@@ -35,44 +17,64 @@
 <body style="background-color: lightblue;">
 
     <div class="container">
-    
-    <h1 id="mixed-text">Welcome to the resources page</h1>
-    <p style="text-align: center">Here you can find five websites that will help make you a better web designer!</p>
 
-<ol>
-   <li style="color:navy"><h3>Khan Academy <img style="width: 50px" src="images/khan.png" alt="Khan Academy Logo"></h3></li>
-    <p>Khan Academy's computer programming course allows one to start from the basics of computer programming. It gives one the ability to program drawings, animations, and games using HTML, CSS, and Javascript elements.</p>
-    <p>I will use Khan Academy's resources to help teach me new skills and to review/practice ones I have already learned.</p>
-        <a href="https://www.khanacademy.org/computing/computer-programming" target="_blank" onclick="alert('Warning. You are navigating away from my site!')"> Click here to view Khan Academy's resources. </a>
+        <h1 id="mixed-text">Welcome to the resources page</h1>
+        <p style="text-align: center">Here you can find five websites that will help make you a better web designer!</p>
 
-   <li style="color: navy"><h3>Flexbox Froggy <img style="width: 60px" src="images/frog.png" alt="Flexbox Froggy Logo"></h3></li>
-   <p>Flexbox Froggy is a fun website which gives one the opportunity to practice their CSS skills while having fun navigating a frog to a lilypad.</p>
-   <p>I will use Flexbox Froggy to practice my CSS skills and to let of steam when I am stressed.</p>
-        <a href="https://flexboxfroggy.com/" target="_blank" onclick="alert('Warning. You are navigating away from my site!')"> Click here to be view FlexBox Froggy's game. </a>
+        <ul class="nav">
+            <li>Resources</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="howto.html">HowTo</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
 
 
-   <li style="color: navy"><h3>Codecademy <img style="width: 80px" src="images/cademy.png" alt="Codecademy Logo"></h3></li>
-   <p>Codecademy is a completley free website on which you can practice and learn new code! Codecademy offers HTML, CSS, Javascript, and more.</p>
-   <p>I will use Codecademy to review many of the skills I have learned in this class. I will also use it to learn how to do new things.</p>
-        <a href="https://www.codecademy.com/" target="_blank" onclick="alert('Warning. You are navigating away from my site!')"> Click here for Codecademy's resources </a>  
+
+        <ol>
+            <li style="color:navy">
+                <h3>Khan Academy <img style="width: 50px" src="images/khan.png" alt="Khan Academy Logo"></h3>
+            </li>
+            <p>Khan Academy's computer programming course allows one to start from the basics of computer programming. It gives one the ability to program drawings, animations, and games using HTML, CSS, and Javascript elements.</p>
+            <p>I will use Khan Academy's resources to help teach me new skills and to review/practice ones I have already learned.</p>
+            <a href="https://www.khanacademy.org/computing/computer-programming" target="_blank" onclick="alert('Warning. You are navigating away from my site!')"> Click here to view Khan Academy's resources. </a>
+
+            <li style="color: navy">
+                <h3>Flexbox Froggy <img style="width: 60px" src="images/frog.png" alt="Flexbox Froggy Logo"></h3>
+            </li>
+            <p>Flexbox Froggy is a fun website which gives one the opportunity to practice their CSS skills while having fun navigating a frog to a lilypad.</p>
+            <p>I will use Flexbox Froggy to practice my CSS skills and to let of steam when I am stressed.</p>
+            <a href="https://flexboxfroggy.com/" target="_blank" onclick="alert('Warning. You are navigating away from my site!')"> Click here to be view FlexBox Froggy's game. </a>
 
 
-   <li style="color: navy"><h3>Code.org <img style="width: 50px" src="images/code.png" alt="Code.org Logo"></h3></li>
-   <p>Code.org is a free program providing coding lessons to everyone. You can build apps, games and websites using HTML, CSS, and Javascript with Code.org's resources.</p>
-   <p>Code.org will help me better my knowledge of what I have learned in class. I can take classes for review and practice. I also like the message Code.org has on their website about the coronavirus.</p>
-        <a href="https://code.org/" target="_blank" onclick="alert('Warning. You are navigating away from my site!')"> Click here for Code.org's resources </a>
+            <li style="color: navy">
+                <h3>Codecademy <img style="width: 80px" src="images/cademy.png" alt="Codecademy Logo"></h3>
+            </li>
+            <p>Codecademy is a completley free website on which you can practice and learn new code! Codecademy offers HTML, CSS, Javascript, and more.</p>
+            <p>I will use Codecademy to review many of the skills I have learned in this class. I will also use it to learn how to do new things.</p>
+            <a href="https://www.codecademy.com/" target="_blank" onclick="alert('Warning. You are navigating away from my site!')"> Click here for Codecademy's resources </a>
 
 
-   <li style="color: navy"><h3>Wikipedia<img style="width: 50px" src="images/wiki.png" alt="Wikipedia Logo"></h3></li>
-   <p>Wikipedia has a variety of resources, one being its lengthly list of HTML, CSS, and JavaScript elements. This provides the basics of these elements and how to do them.</p>
-   <p>I will use Wikipedia to look up resources when I need them. Wikipedia offers a quick and easy way to do this.</p>
-        <p><a href="https://en.wikipedia.org/wiki/HTML_element" target="_blank" onclick="alert('Warning. You are navigating away from my site!')">Click here for HTML elements</a></p>
-        <p><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" onclick="alert('Warning. You are navigating away from my site!')">Click here for CSS elements</a></p>
-        <p><a href=" https://en.wikipedia.org/wiki/JavaScript" target="_blank" onclick="alert('Warning. You are navigating away from my site!')">Click here for Javascript elements</a></p>
-          
-</ol>
+            <li style="color: navy">
+                <h3>Code.org <img style="width: 50px" src="images/code.png" alt="Code.org Logo"></h3>
+            </li>
+            <p>Code.org is a free program providing coding lessons to everyone. You can build apps, games and websites using HTML, CSS, and Javascript with Code.org's resources.</p>
+            <p>Code.org will help me better my knowledge of what I have learned in class. I can take classes for review and practice. I also like the message Code.org has on their website about the coronavirus.</p>
+            <a href="https://code.org/" target="_blank" onclick="alert('Warning. You are navigating away from my site!')"> Click here for Code.org's resources </a>
 
-</div>
+
+            <li style="color: navy">
+                <h3>Wikipedia<img style="width: 50px" src="images/wiki.png" alt="Wikipedia Logo"></h3>
+            </li>
+            <p>Wikipedia has a variety of resources, one being its lengthly list of HTML, CSS, and JavaScript elements. This provides the basics of these elements and how to do them.</p>
+            <p>I will use Wikipedia to look up resources when I need them. Wikipedia offers a quick and easy way to do this.</p>
+            <p><a href="https://en.wikipedia.org/wiki/HTML_element" target="_blank" onclick="alert('Warning. You are navigating away from my site!')">Click here for HTML elements</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" onclick="alert('Warning. You are navigating away from my site!')">Click here for CSS elements</a></p>
+            <p><a href=" https://en.wikipedia.org/wiki/JavaScript" target="_blank" onclick="alert('Warning. You are navigating away from my site!')">Click here for Javascript elements</a></p>
+
+        </ol>
+
+    </div>
 
 
 
@@ -88,4 +90,5 @@
 
 
 </body>
+
 </html>

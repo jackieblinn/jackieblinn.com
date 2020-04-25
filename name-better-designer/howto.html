@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HowTo</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        .mixed-list {
+            text-indent: 50px;
+            list-style-type: circle;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+
+
+<body style="background-color: lightblue;">
+
+    <div class="container">
+
+        <h1 id="mixed-text">Welcome to the HowTo page</h1>
+        <p style="text-align: center">Here you can find some basic steps of building a website!</p>
+
+        <ul class="nav">
+
+            <li>HowTo</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+
+        <h2 style="color: tomato;">How do I build a website?</h2>
+
+        <ol>
+
+            <li style="font-weight: bold">Come up with an idea!</li>
+            <p>Here are some ideas!</p>
+            <button onclick="myFunction()">Move the website ideas caption!</button>
+            <table style="width:25%">
+                <caption id="myCap">Website Ideas!</caption>
+                <tr>
+                    <th>Animals</th>
+                    <th>Blog</th>
+                </tr>
+                <tr>
+                    <th>Service</th>
+                    <th>Video games</th>
+                </tr>
+                <tr>
+                    <th>Online class</th>
+                    <th>HowTo website</th>
+                </tr>
+            </table>
+
+            <script>
+                function myFunction() {
+                    document.getElementById("myCap").style.captionSide = "bottom";
+                }
+            </script>
+
+            <li style="font-weight: bold">Make a root folder</li>
+            <p>Name a folder with NO SPACES in a place on your computer. Make sure you remember where this is. If you want images on your website, then put a folder inside that folder called images.</p>
+
+            <li style="font-weight: bold">VS code</li>
+            <p>Make sure you have visual studio code installed on your computer. This is where you will edit your website. Open the folder you created in the last step.</p>
+
+            <li style="font-weight: bold">Start editing</li>
+            <p>Below I will list some of the basic skills you can use when designing a website. For more resources please visit the resources page. <a href="resources.html">Click here for the resources page.</a></p>
+            <li class="mixed-list">To add a header use the tag h1 through h6. h1 is the biggest header and h6 is the smallest.</li>
+            <li class="mixed-list">To add a paragraph use the tag p.</li>
+            <li class="mixed-list">To link a website use the tag a href="YOUR WEBSITE" target="_blank". This will open your website in a different tab. </li>
+            <li class="mixed-list">To add an image use the tag img src="YOUR IMAGE LINK"</li>
+            <li class="mixed-list">One way we add style is called inline. For example to add a font-color to a header you would use the tag h1 style="color: red;"</li>
+            <li class="mixed-list">One way we add style is called internal. This is when we have the tag style with an id or class inside.</li>
+            <li class="mixed-list">Another way we add style is called external. This is in a seperate folder called style.css and classes and id's. I link this page to my pages on my website to apply them.</li>
+        </ol>
+
+        <p style="font-weight: bold; text-indent: 30px">5. Now upload your site!</p>
+        <p style="text-indent: 50px">I use something called GitHub, in which I put my folders into the main GitHub one. The domain is pointed to the GitHub server.</p>
+
+
+
+    </div>
+
+</body>
+
+</html>

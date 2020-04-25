@@ -1,0 +1,30 @@
+.container {
+    padding: 50 px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 80%;  
+}
+
+#mixed-text{
+    font-size: 30px;
+    color: orange;
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+.nav {
+    list-style: none;
+    text-align: center;
+    font-size: 24 px;
+}
+.nav li {
+    display: inline;
+    margin-right: 20 px;
+}
+
+
+
+
+
