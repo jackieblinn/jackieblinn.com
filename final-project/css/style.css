@@ -1,0 +1,138 @@
+/*Primary font*/
+
+h1 {
+    font-family: tgn-soft-round, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+}
+
+
+/*secondary font*/
+
+body {
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+
+/*accent font*/
+
+em {
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: black;
+}
+
+
+/*Controls the background-color*/
+
+body {
+    background-color: rgb(255, 255, 230);
+}
+
+
+/*About the grid-container outline and layout*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+
+/*About the gird-item style*/
+
+.grid-item {
+    background-color: rgb(255, 230, 179);
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+/*The first grid-item*/
+
+.item1 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+
+/*Where grid-item2 is*/
+
+.item2 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+
+/*Where grid-item3 is*/
+
+.item3 {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+
+/*What grid-item4 looks like*/
+
+.grid-item4 {
+    background-color: rgb(255, 230, 179);
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+/*Layout of grid-container4*/
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+
+/*Layout of grid-container5*/
+
+.grid-container5 {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+
+/*What grid-item5 looks like*/
+
+.grid-item5 {
+    background-color: rgb(255, 230, 179);
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+/*The nav-bar layout. Does not work because only the home page.*/
+
+.menu-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: whitesmoke;
+    padding: 10px;
+    grid-gap: 5px;
+}
+
+
+/*What the nav-bar looks like*/
+
+.menu-item {
+    background-color: rgb(255, 195, 77);
+    font-size: 30px;
+    padding: 20px;
+    border: 1px solid black;
+}
